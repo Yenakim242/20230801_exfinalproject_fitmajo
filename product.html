@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product - FitMaJo Tienda Online</title>
+
+    <!-- mi favicon -->
+    <link rel="shortcut icon" href="imagen/logo/Fit Majo Barcelona-1_ssymple.jpg" type="image/x-icon">
+
+    <!-- mi css -->
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/product.css">
+
+    <!-- CDN: fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<style>
+    @font-face {
+        font-family: "poppins";
+        src: url(font/Poppins/Poppins-Light.ttf);
+    }
+</style>
+<body>
+    
+    <nav class="navbar"></nav>
+
+    <!-- INFO ELEMENT: product catalog -->
+    <!-- foto de producto -->
+    <section class="product-details">
+        <div class="image-slider">
+            <div class="product-images">
+                <img src="imagen/product/proteina/proteina_whey/20230809_justloading_wheyvanilla/01_justloading_wheyvanilla.jpg" alt="justloading proteina whey vanilla image1" class="active">
+                <img src="imagen/product/proteina/proteina_whey/20230809_justloading_wheyvanilla/02_justloading_VAINILLA.PFFR0.png" alt="justloading proteina whey vanilla image2">
+                <img src="imagen/product/proteina/proteina_whey/20230809_justloading_wheyvanilla/03_justloading_Tabla_Vainilla.jpg" alt="justloading proteina whey vanilla image3">
+            </div>
+        </div>
+
+        <!-- explicación del producto -->
+        <div class="details">
+            <h2 class="product-brand">justloading</h2>
+            <p class="product-short-des">100% whey protein vanilla - proteína whey en polvo</p>
+            <span class="product-price">€14,50</span>
+            <span class="product-actual-price">€12,91</span>
+            <span class="product-discount">( 11% rebajado )</span>
+
+            <p class="product-sub-heading">unidades</p>
+
+            <input type="radio" name="unidad" value="1" checked hidden id="unidad1">
+            <label for="unidad1" class="unidad-radio-btn check">1</label>
+            <input type="radio" name="unidad" value="2" hidden id="unidad2">
+            <label for="unidad2" class="unidad-radio-btn">2</label>
+            <input type="radio" name="unidad" value="3" hidden id="unidad3">
+            <label for="unidad3" class="unidad-radio-btn">3</label>
+
+            <button class="btn cart-btn">añadir al carrito</button>
+            <button class="btn">añadir a la lista de deseos</button>
+        </div>
+    </section>
+
+    <!-- SECIÓN PARA DESCRIBIR DEL PRODUCTO -->
+    <section class="detail-des">
+        <h2 class="heading">descripción</h2>
+        <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa omnis velit, minus molestias dolorum ad recusandae doloribus ipsam eveniet, expedita vero eaque, doloremque nulla pariatur eius autem? Iure cumque assumenda explicabo, eius libero, quaerat reiciendis consequuntur minima voluptate veniam repellendus facere nisi excepturi maiores quos voluptatibus aut voluptatum qui perferendis praesentium obcaecati, officia ullam molestiae. Soluta facere unde pariatur perspiciatis corporis odio reprehenderit quas quos accusamus cupiditate dolores eveniet reiciendis sed excepturi et iste, veritatis assumenda repudiandae vel nulla ratione, voluptas distinctio est quidem. Placeat totam alias officia voluptas accusantium, commodi recusandae nobis rem numquam! Minima error consequatur quas veritatis animi quis facere, est fuga quibusdam fugiat! Magni eos sed enim facere adipisci non quod excepturi neque praesentium eum corporis hic libero placeat modi maiores, minima inventore repellendus aspernatur. Architecto nostrum quia consectetur maiores. Laborum, animi sequi! Quam libero quas, minima pariatur assumenda rem exercitationem ratione minus culpa labore dicta illum id. Voluptates nostrum magnam sint facere inventore nam deserunt provident dicta, odit a corporis, quas doloribus labore eligendi quos libero ab ratione voluptatum ea totam dolor tempora vitae. Corporis aliquam tenetur illo? Voluptates, perspiciatis ad aut libero modi molestiae doloremque odio, tempora adipisci eos laborum. Iure rem possimus cumque quae rerum nobis iusto nisi, aliquid nam itaque animi dolorum velit laudantium ipsam tempore alias debitis voluptate error delectus necessitatibus? Dolore voluptate quis maiores excepturi quam similique sunt autem. Sapiente aperiam quos molestiae dolorum, magni at impedit culpa aut voluptatem esse sequi, dolorem laboriosam dolore maiores dolores, veniam magnam debitis atque distinctio dolor. Ut pariatur libero modi tempore dolor asperiores atque, molestiae veritatis nobis quidem? Aut debitis rem nostrum laboriosam doloribus harum molestiae, perspiciatis consequatur odit labore et modi illo, asperiores laborum. Excepturi nostrum veniam neque repudiandae reiciendis. Accusamus expedita repellat at perferendis sunt modi quae molestiae, quis libero impedit!</p>
+    </section>
+
+    <!-- CARDS CONTAINER SELECTION: alimentos vegetarianos -->
+    <section class="product">
+        <h2 class="product-category">alimentos vegetarianos</h2>
+        <button class="pre-btn"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="nxt-btn"><i class="fa-solid fa-arrow-right"></i></button>
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagen/header/producto-vegetariano/natruly-avena-molida-vainilla.jpg" a lt="avena-molida-vainilla image" class="product-thumb">
+                    <button class="card-btn">compra rápida</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">natruly</h2>
+                    <p class="product-short-des">avena molida sabor vanilla</p>
+                    <span class="price">€20</span><span class="actual-price">€40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagen/header/producto-vegetariano/natruly-barrita-energetica-natural-cacao-bio.jpg" alt="natruly-barrita-energetica-natural-cacao image" class="product-thumb">
+                    <button class="card-btn">compra rápida</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">natruly</h2>
+                    <p class="product-short-des">barrita energetica natural cacao</p>
+                    <span class="price">€20</span><span class="actual-price">€40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagen/header/producto-vegetariano/natruly-barrita-energetica-natural-de-manzana-bio.jpg" alt="natruly-barrita-energetica-natural-de-manzana-bio image" class="product-thumb">
+                    <button class="card-btn">compra rápida</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">natruly</h2>
+                    <p class="product-short-des">barrita energetica natural de manzana bio</p>
+                    <span class="price">€20</span><span class="actual-price">€40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagen/header/producto-vegetariano/natruly-proteina-vegana-fresa-sin-azucar-bio.jpg" alt="natruly-proteina-vegana-fresa-sin-azucar-bio image" class="product-thumb">
+                    <button class="card-btn">compra rápida</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">natruly</h2>
+                    <p class="product-short-des">proteina vegana fresa sin azucar bio</p>
+                    <span class="price">€20</span><span class="actual-price">€40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagen/header/producto-vegetariano/natrulycrema-de-cacahuete-natural-sin-azucar.jpg" alt="natruly crema-de-cacahuete-natural-sin-azucar image" class="product-thumb">
+                    <button class="card-btn">compra rápida</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">natruly</h2>
+                    <p class="product-short-des">crema de cacahuete natural sin azucar</p>
+                    <span class="price">€20</span><span class="actual-price">€40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagen/header/producto-vegetariano/quaker-bolsa_avena_3d_nuevo_visual.jpg" alt="quaker-bolsa_avena image" class="product-thumb">
+                    <button class="card-btn">compra rápida</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">quaker</h2>
+                    <p class="product-short-des">copos de avena</p>
+                    <span class="price">€20</span><span class="actual-price">€40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagen/header/producto-vegetariano/quaker-muesli_pecan-paranoten.png" alt="quaker-muesli_pecan image" class="product-thumb">
+                    <button class="card-btn">compra rápida</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">quaker</h2>
+                    <p class="product-short-des">muesli de avena crujiente</p>
+                    <span class="price">€20</span><span class="actual-price">€40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagen/header/producto-vegetariano/turronsvicens-0138189_l.jpg" alt="turronsvicens barrita sports image" class="product-thumb">
+                    <button class="card-btn">compra rápida</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">turrons vicens</h2>
+                    <p class="product-short-des">pack 5 surtido turrones eco 35g</p>
+                    <span class="price">€20</span><span class="actual-price">€40</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARDS CONTAINER: ropa de fitness y deporte -->
+    <section class="product">
+        <h2 class="product-category">Ropa de fitness y deporte</h2>
+        <button class="pre-btn"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="nxt-btn"><i class="fa-solid fa-arrow-right"></i></button>
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagen/header/ropa de fintess y deporte/andar_4fit_leggings.jpg" a lt="andar_4fit_leggings image" class="product-thumb">
+                    <button class="card-btn">compra rápida</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">andar</h2>
+                    <p class="product-short-des">4fit leggings</p>
+                    <span class="price">€20</span><span class="actual-price">€40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagen/header/ropa de fintess y deporte/lefties_leggings_ciclista.jpg" alt="lefties_leggings_ciclista image" class="product-thumb">
+                    <button class="card-btn">compra rápida</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">lefties</h2>
+                    <p class="product-short-des">leggings ciclista</p>
+                    <span class="price">€20</span><span class="actual-price">€40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagen/header/ropa de fintess y deporte/andar_5fit_leggings.jpg" alt="andar_5fit_leggings image" class="product-thumb">
+                    <button class="card-btn">compra rápida</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">andar</h2>
+                    <p class="product-short-des">5fit leggings</p>
+                    <span class="price">€20</span><span class="actual-price">€40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagen/header/ropa de fintess y deporte/lefties_leggings_seamless.jpg" alt="lefties_leggings_seamless image" class="product-thumb">
+                    <button class="card-btn">compra rápida</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">lefties</h2>
+                    <p class="product-short-des">leggings seamless</p>
+                    <span class="price">€20</span><span class="actual-price">€40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagen/header/ropa de fintess y deporte/xexymix_crop.jpg" alt="xexymix_crop image" class="product-thumb">
+                    <button class="card-btn">compra rápida</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">xexymix</h2>
+                    <p class="product-short-des">crop top</p>
+                    <span class="price">€20</span><span class="actual-price">€40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagen/header/ropa de fintess y deporte/lefties_leggins_ciclista_seamless.jpg" alt="lefties_leggins_ciclista_seamless image" class="product-thumb">
+                    <button class="card-btn">compra rápida</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">lefties</h2>
+                    <p class="product-short-des">leggins ciclista seamless</p>
+                    <span class="price">€20</span><span class="actual-price">€40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagen/header/ropa de fintess y deporte/xexymix_mideum_chandal.jpg" alt="xexymix_mideum_chandal image" class="product-thumb">
+                    <button class="card-btn">compra rápida</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">xexymix</h2>
+                    <p class="product-short-des">mideum chandal</p>
+                    <span class="price">€20</span><span class="actual-price">€40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="imagen/header/ropa de fintess y deporte/lefties_leggins_deportivo_estampado.jpg" alt="lefties_leggins_deportivo_estampado image" class="product-thumb">
+                    <button class="card-btn">compra rápida</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">lefties</h2>
+                    <p class="product-short-des">leggings deportivo estampado</p>
+                    <span class="price">€20</span><span class="actual-price">€40</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer></footer>
+
+    <script src="js/nav.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/product.js"></script>
+
+</body>
+</html>
